@@ -13,7 +13,7 @@ export default function CallToAction() {
 
           <div className="cta-buttons">
             <Link
-              href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Mansion%20Purwokerto"
+              href="https://wa.me/6281127010001?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Mansion%20Purwokerto"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-button cta-button-primary"
@@ -22,7 +22,7 @@ export default function CallToAction() {
               Whatsapp Kami
             </Link>
             <Link
-              href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Mansion%20Purwokerto"
+              href="https://wa.me/6281127010001?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Mansion%20Purwokerto"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-button cta-button-outline"

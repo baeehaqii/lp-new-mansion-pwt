@@ -326,7 +326,7 @@ export default function Properties() {
   const [touchStart, setTouchStart] = useState<{ [key: number]: number }>({})
   const [isDragging, setIsDragging] = useState<{ [key: number]: boolean }>({})
   const [dragStart, setDragStart] = useState<{ [key: number]: number }>({})
-  const [modalTab, setModalTab] = useState<'detail' | 'simulasi' | 'progres' | 'lokasi'>('detail')
+  const [modalTab, setModalTab] = useState<'detail' | 'simulasi'>('detail')
   const [kprHarga, setKprHarga] = useState<string>('')
   const [kprDp, setKprDp] = useState<string>('')
   const [kprTahun, setKprTahun] = useState<string>('')
@@ -346,12 +346,12 @@ export default function Properties() {
       id: 1,
       cluster: "saba",
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-54_necnhf.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-62_ywjwww.avif",
+        
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762052665/Screenshot_2025-11-02_at_09.57.02_z2e7kq.avif",
       name: "Tipe 48/91",
-      price: "550.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "48",
@@ -363,12 +363,11 @@ export default function Properties() {
       id: 2,
       cluster: "saba",
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-54_necnhf.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-62_ywjwww.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762052885/Screenshot_2025-11-02_at_09.57.09_r3wrqt.avif",
       name: "Tipe 54/105",
-      price: "600.000.000",
       bedrooms: 2,
       bathrooms: 2,
       area: "54",
@@ -380,12 +379,11 @@ export default function Properties() {
       id: 3,
       cluster: "saba",
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-54_necnhf.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-62_ywjwww.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762052886/Screenshot_2025-11-02_at_09.57.17_iubo7b.avif",
       name: "Tipe 54/120",
-      price: "625.000.000",
       bedrooms: 2,
       bathrooms: 2,
       area: "54",
@@ -397,12 +395,11 @@ export default function Properties() {
       id: 4,
       cluster: "saba",
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+       "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-54_necnhf.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-62_ywjwww.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762052886/Screenshot_2025-11-02_at_09.57.25_bzt8qd.avif",
       name: "Tipe 69/135",
-      price: "700.000.000",
       bedrooms: 3,
       bathrooms: 2,
       area: "69",
@@ -414,12 +411,11 @@ export default function Properties() {
       id: 5,
       cluster: "saba",
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-54_necnhf.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-62_ywjwww.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762052886/Screenshot_2025-11-02_at_09.57.32_c2xrmh.avif",
       name: "Tipe 175/190",
-      price: "1.200.000.000",
       bedrooms: 4,
       bathrooms: 3,
       area: "175",
@@ -485,7 +481,6 @@ export default function Properties() {
     images: string[]
     floorPlan: string
     name: string
-    price: string
     bedrooms: number
     bathrooms: number
     area: string
@@ -1002,42 +997,6 @@ export default function Properties() {
               >
                 Simulasi KPR
               </button>
-              <button
-                onClick={() => setModalTab('progres')}
-                style={{
-                  padding: '12px 0',
-                  border: 'none',
-                  backgroundColor: 'transparent',
-                  fontSize: '14px',
-                  fontWeight: modalTab === 'progres' ? '700' : '500',
-                  color: modalTab === 'progres' ? '#831016' : '#94a3b8',
-                  cursor: 'pointer',
-                  borderBottom: modalTab === 'progres' ? '2px solid #831016' : 'none',
-                  transition: 'all 0.2s',
-                  fontFamily: 'inherit',
-                  marginBottom: '-1px'
-                }}
-              >
-                Progres Pembangunan
-              </button>
-              <button
-                onClick={() => setModalTab('lokasi')}
-                style={{
-                  padding: '12px 0',
-                  border: 'none',
-                  backgroundColor: 'transparent',
-                  fontSize: '14px',
-                  fontWeight: modalTab === 'lokasi' ? '700' : '500',
-                  color: modalTab === 'lokasi' ? '#831016' : '#94a3b8',
-                  cursor: 'pointer',
-                  borderBottom: modalTab === 'lokasi' ? '2px solid #831016' : 'none',
-                  transition: 'all 0.2s',
-                  fontFamily: 'inherit',
-                  marginBottom: '-1px'
-                }}
-              >
-                Lokasi
-              </button>
             </div>
 
             <div className="modal-content">
@@ -1088,12 +1047,9 @@ export default function Properties() {
                       </div>
                     </div>
 
-                    <h3 className="modal-subtitle">Harga</h3>
-                    <div className="modal-price">Rp {selectedProperty.price}</div>
-
                     <div className="modal-cta">
                       <Link
-                        href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Samara%20Asri%20Wiradadi"
+                        href="https://wa.me/6281127010001?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Mansion%20Purwokerto"
                         className="modal-cta-button"
                       >
                         Hubungi Kami
@@ -1101,7 +1057,7 @@ export default function Properties() {
                     </div>
                   </div>
                 </>
-              ) : modalTab === 'simulasi' ? (
+              ) : (
                 <SimulasiKPRContent
                   harga={kprHarga}
                   dp={kprDp}
@@ -1112,58 +1068,6 @@ export default function Properties() {
                   onTahunChange={setKprTahun}
                   onBungaChange={setKprBunga}
                 />
-              ) : modalTab === 'progres' ? (
-                <ConstructionProgress />
-              ) : (
-                <div style={{ padding: '24px' }}>
-                  <h3 className="modal-subtitle" style={{ marginTop: 0 }}>Lokasi Sapphire Mansion Purwokerto</h3>
-                  <div style={{
-                    width: '100%',
-                    height: '450px',
-                    borderRadius: '8px',
-                    overflow: 'hidden',
-                    marginBottom: '20px'
-                  }}>
-                    <div
-                      dangerouslySetInnerHTML={{ __html: location.embed }}
-                      style={{
-                        width: '100%',
-                        height: '100%'
-                      }}
-                    />
-                  </div>
-                  <p style={{ color: '#64748b', lineHeight: '1.6' }}>{location.description}</p>
-                  <div style={{ marginTop: '20px' }}>
-                    <Link
-                      href="https://maps.app.goo.gl/6T1w27ct5YuRFnof7"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '8px',
-                        padding: '12px 24px',
-                        backgroundColor: '#831016',
-                        color: '#ffffff',
-                        borderRadius: '6px',
-                        textDecoration: 'none',
-                        fontWeight: '600',
-                        transition: 'all 0.2s ease'
-                      }}
-                      onMouseEnter={(e) => {
-                        (e.target as HTMLAnchorElement).style.backgroundColor = '#a31c1e'
-                      }}
-                      onMouseLeave={(e) => {
-                        (e.target as HTMLAnchorElement).style.backgroundColor = '#831016'
-                      }}
-                    >
-                      <svg viewBox="0 0 24 24" fill="currentColor" style={{ width: '18px', height: '18px' }} aria-hidden="true">
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" />
-                      </svg>
-                      Lihat Lokasi di Google Maps
-                    </Link>
-                  </div>
-                </div>
               )}
             </div>
           </div>

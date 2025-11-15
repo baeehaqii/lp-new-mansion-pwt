@@ -27,7 +27,7 @@ export default function About() {
             {/* Container gambar */}
             <div className="about-image-container">
               <Image
-                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif"
+                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1763238541/mansion-khusus_u8alkw.avif"
                 alt="Sapphire Mansion Purwokerto"
                 width={600}
                 height={450}
@@ -42,7 +42,7 @@ export default function About() {
             <div className="about-content">
               <h2 className="about-title">Sapphire Mansion</h2>
               <p className="about-description">
-                Sapphire Mansion dirancang untuk Anda yang mengutamakan kenyamanan, privasi, dan kemudahan bergerak di kota. Berlokasi di Jl. Sunan Giri, Karangrau, perumahan Purwokerto ini berada di titik koneksi empat jalur utama, sehingga setiap tujuan terasa lebih dekat. Lingkungannya tertata, fasilitasnya lengkap, dan perkembangan kawasan terus bergerak, menjadikan Sapphire Mansion bukan hanya tempat tinggal yang nyaman, tapi juga aset bernilai bagi masa depan Anda.
+                Sapphire Mansion dirancang untuk Anda yang mengutamakan kenyamanan, privasi, dan kemudahan bergerak di kota. Berlokasi di Jl. Sunan Giri, Karangrau, perumahan Purwokerto ini berada di titik koneksi empat jalur utama, sehingga setiap tujuan terasa lebih dekat. 
               </p>
               <div>
                 {/* Ubah Link menjadi button untuk membuka modal */}
@@ -97,7 +97,7 @@ export default function About() {
               <h2 className="modal-title">Sapphire Mansion</h2>
               <div className="modal-image">
                 <Image
-                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif"
+                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1763238540/mansion-62_ywjwww.avif"
                   alt="Sapphire Mansion Purwokerto"
                   width={700}
                   height={400}
@@ -106,7 +106,7 @@ export default function About() {
               </div>
               <div className="modal-description">
                 <p>
-                  Sapphire Mansion dirancang untuk Anda yang mengutamakan kenyamanan, privasi, dan kemudahan bergerak di kota. Berlokasi di Jl. Sunan Giri, Karangrau, perumahan Purwokerto ini berada di titik koneksi empat jalur utama, sehingga setiap tujuan terasa lebih dekat.
+                  Sapphire Mansion dirancang untuk Anda yang mengutamakan kenyamanan, privasi, dan kemudahan bergerak di kota. Berlokasi di Jl. Sunan Giri, Karangrau, perumahan Purwokerto ini berada di titik koneksi empat jalur utama, sehingga setiap tujuan terasa lebih dekat. Lingkungannya tertata, fasilitasnya lengkap, dan perkembangan kawasan terus bergerak, menjadikan Sapphire Mansion bukan hanya tempat tinggal yang nyaman, tapi juga aset bernilai bagi masa depan Anda.
                 </p>
 
                 <h3 className="modal-subtitle">Keunggulan Lokasi</h3>

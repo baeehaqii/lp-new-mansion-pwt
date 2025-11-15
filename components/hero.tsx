@@ -17,18 +17,18 @@ export default function Hero() {
 
   const heroSlides = [
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_1_-_Photo.jpeg_sitx25.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238541/mansion-khusus_u8alkw.avif",
       title: "Hunian Modern di Lokasi Prime Purwokerto",
       description:
         "Nyaman untuk tinggal, dekat ke berbagai pusat kota.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_4_-_Photo.jpeg_sjzwqy.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-62_ywjwww.avif",
       title: "Akses Mudah ke Empat Jalur Utama Kota",
       description: "Mobilitas lebih singkat untuk setiap aktivitas harian.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761825386/2_6_-_Photo.jpeg_sbnhu8.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1763238540/mansion-60_asmkus.avif",
       title: "Kawasan Eksklusif yang Terus Berkembang",
       description: "Memberi prospek jangka panjang untuk Anda.",
     },
